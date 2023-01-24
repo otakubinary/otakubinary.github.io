@@ -1,0 +1,14 @@
+#admin-section {
+  background-color: rgb(241, 123, 123);
+  width: 25%;
+  height: auto;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  position: fixed;
+  top: 450px;
+}
+
+textarea {
+  resize: none;
+}
