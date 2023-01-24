@@ -1,0 +1,405 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-color: rgb(194, 190, 190);
+}
+
+img {
+  width: 85px;
+  margin: 10px;
+}
+main {
+  width: 100%;
+  height: inherit;
+  display: flex;
+
+  flex-direction: column;
+}
+.contenido_post div p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  text-align: center;
+  background-color: rgb(247, 245, 245);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+header img {
+  border-radius: 50%;
+  border: 4px solid darkred;
+}
+header h2 {
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: aliceblue;
+  height: auto;
+}
+nav ul li {
+  list-style: none;
+  height: 50px;
+  padding: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+#container-image-ohayou {
+  display: flex;
+  align-items: center;
+}
+#container-image-ohayou p {
+  display: block;
+  width: 100%;
+}
+section .center {
+  height: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.my-title {
+  margin: 50px;
+  border-bottom: 10px solid darkred;
+}
+.my-title span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post {
+  margin: 30px 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.post:hover {
+  box-shadow: rgb(110, 110, 110) 0px 1px 10px;
+  cursor: pointer;
+}
+#posts-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+}
+.cabecera_post {
+  background-color: rgb(236, 234, 234);
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
+  border-bottom: 5px solid darkred;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.cabecera_post div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contenido_post div {
+  background-color: #d4d4d1;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contenido_post > div {
+  padding: 20px;
+  min-height: 100px;
+  height: auto;
+}
+#tags_container {
+  width: 100%;
+  /* background-color: yellow; */
+  height: auto;
+  text-align: center;
+  display: flex;
+  background-color: rgb(212, 212, 209);
+  justify-content: space-around;
+  align-items: center;
+}
+
+#tags_container a {
+  margin: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: double;
+}
+#container_stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+.fecha_contenedor {
+  display: flex;
+  width: 100px;
+  background-color: darkred;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+}
+.fecha_contenedor h4 {
+  font-size: 40px;
+}
+footer {
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 15px;
+  text-align: center;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+footer ul li {
+  list-style-type: none;
+  display: block;
+  width: 100%;
+}
+footer ul li a {
+  text-decoration: none;
+}
+aside {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+#quick-admin-actions {
+  background-color: rgb(248, 164, 164);
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+}
+#quick-admin-actions {
+  background-color: rgb(207, 207, 203);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+  font-size: 15px;
+}
+#quick-admin-actions div {
+  margin: 0 auto;
+}
+#quick-admin-actions a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: rgb(245, 241, 241);
+  border: 3px solid darkred;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 50px;
+}
+.circle {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(248, 246, 246);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border: 2px solid darkred;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+}
+.circle-close {
+  transform: rotate(45deg);
+}
+.circle::after {
+  content: "\002B";
+  font-size: 50px;
+}
+#quick-admin-actions {
+  flex-direction: column;
+}
+#admin-post-actions {
+  display: flex;
+  width: 100%;
+  background-color: darkred;
+}
+#admin-post-actions h3 {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(240, 237, 237);
+}
+
+/* #container-admin-actions {
+  margin: 0 auto;
+  justify-content: space-around;
+  display: flex;
+} */
+#container-admin-actions a {
+  color:white;
+}
+
+div ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+div ul li {
+  margin: 10px;
+}
+div ul li a {
+  text-decoration: none;
+}
+#pill-user {
+  background-color: rgb(72, 140, 230);
+  border-radius: 3px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+}
+#pill-user p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 12px;
+  margin: 4px;
+}
+#rol-container {
+  background-color: rgb(184, 184, 184);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.pill{
+  background-color: gray;
+  padding:6px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+/*las diferentes opciones de las pildoras colores*/
+#edit-pill{
+  background-color: rgb(144, 71, 226);
+}
+#hide-pill{
+  background-color: rgb(0, 0, 0);
+}
+#mod-pill{
+  background-color: rgb(20, 85, 184);
+}
+#del-pill{
+  background-color: red;
+}
+
+/********************* Media Queries ****************************/
+/* menor que 640px */
+@media screen and (max-width: 640px) {
+  /* body {
+    background-color: blue;
+  } */
+
+  img {
+    width: 50px;
+  }
+  #title_container {
+    flex-direction: column-reverse;
+  }
+  div#container-image-ohayou-letters {
+    flex-direction: column;
+  }
+  div#container-image-ohayou > * {
+    font-size: 15px;
+  }
+  #posts-container {
+    width: 100%;
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #admin-post-actions{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+/* entre 640px y 1280px */
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+  /* body {
+    background-color: yellow;
+  } */
+  #quick-admin-actions {
+    flex-direction: column;
+    align-items: center;
+    height: 145px;
+  }
+  #posts-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+div ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+}
+
+/* Mayor que 1280 px*/
+@media screen and (min-width: 1280px) {
+  /* body {
+    background-color: red;
+  } */
+  #quick-admin-actions {
+    flex-direction: row;
+    align-items: center;
+    height: 145px;
+  }
+  #quick-admin-actions h3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #posts-container {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .cabecera_post #pill-user {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  div ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+}
