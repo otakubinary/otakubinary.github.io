@@ -5,215 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
-    <link rel="icon" type="image/x-icon" href="/img/profile.jpg">
-    <link rel="stylesheet" href="css/styles_blog.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/index_styles.css">
 </head>
 
 <body>
-    <main>
-        <header id="title_container">
-            <div id="container-image-ohayou">
-                <p>おはよう (•◡•) / </p>
-                <p>Dev Beginner VTuber</p>
-            </div>
-            <div id="container-image-ohayou">
-                <h2> El Blog de un Otaku Binario</h2>
+    <div class="center">
+        <div class="card">
+            <div class="sub-cont">
                 <img src="img/profile.jpg" />
+                <h2> Otaku Binary </h2>
             </div>
-
-        </header>
-        <aside>
-            <div class="circle"></div>
-            <section id="quick-admin-actions">
-                <h3> Quick Admin actions</h3>
-                <div>
-                    <a href="#" id="create_post">Create new post</a>
-                    <a href="/admin_console.html" id="enter_console">Enter console</a>
+            <hr />
+            <h3>My Social Media</h3>
+            <section class="social-container">
+                <div class="social-item">
+                    <a href="https://youtube.com/@otakubinary" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <h4>YouTube</h4>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.twitch.tv/otakubinary" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                    <h4>Twitch</h4>
+                </div>
+                <div class="social-item">
+                    <a href="https://twitter.com/otakubinary" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <h4>Twitter</h4>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com/otakubinary/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <h4>Instagram</h4>
                 </div>
             </section>
+            <h3>My Blog</h3>
+            <section class="blog-container">
+                <div>
+                    <p>Para ir a mi blog pincha aquí: <a href="/blog.html">Ir al blog</a></p>
+                </div>
+            </section>
+        </div>
+    </div>
 
-        </aside>
-        <section id="posts-container">
-            <article class="post">
-                <section id="admin-post-actions">
-                    <h3>Admin actions</h3>
-                    <div id="container-admin-actions">
-                        <ul>
-                            <li><a href="#" id="edit-pill" class="pill">Editar Post</a></li>
-                            <li><a href="#" id="hide-pill" class="pill">Ocultar Post</a></li>
-                            <li><a href="#" id="mod-pill" class="pill">Moderar</a></li>
-                            <li><a href="#" id="del-pill" class="pill">Eliminar Post Definitivamente</a></li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="cabecera_post">
-                    <div>
-                        <h2>Titulo del post</h2>
-                        <div id="pill-user">
-                            <span id="user-container">
-                                <p>by otakubinary</p>
-                            </span>
-                            <span id="rol-container">
 
-                                <p>rol del usuario</p>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="fecha_contenedor">
-                        <div>
-                            <h4>22</h4>
-                            <p>Ene</p>
-                            <p>2023</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="contenido_post">
-                    <div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, praesentium! Nam vero
-                            necessitatibus similique molestiae doloribus veniam doloremque ipsa alias fugiat
-                            blanditiis consectetur eaque sint iure, aliquam vel minus eveniet.</p>
-                    </div>
-                    <div id="tags_container">
-                        <p>Etiquetas</p>
-                        <div>
-                            <a href="#">Tag 1</a>
-                            <a href="#">Tag 2</a>
-                            <a href="#">Tag 3</a>
-                            <a href="#">Tag 4</a>
-                        </div>
-                     
-                    </div>
-                    <div id="container_stats">
-                        <p>20 Nipahs</p>
-                        <p>20 Comments</p>
-                    </div>
-                </section>
-            </article>
-            <article class="post">
-                <section id="admin-post-actions">
-                    <h3>Admin actions</h3>
-                    <div id="container-admin-actions">
-                        <ul>
-                            <li><a href="#" id="edit-pill" class="pill">Editar Post</a></li>
-                            <li><a href="#" id="hide-pill" class="pill">Ocultar Post</a></li>
-                            <li><a href="#" id="mod-pill" class="pill">Moderar</a></li>
-                            <li><a href="#" id="del-pill" class="pill">Eliminar Post Definitivamente</a></li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="cabecera_post">
-                    <div>
-                        <h2>Titulo del post</h2>
-                        <div id="pill-user">
-                            <span id="user-container">
-                                <p>by otakubinary</p>
-                            </span>
-                            <span id="rol-container">
 
-                                <p>rol del usuario</p>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="fecha_contenedor">
-                        <div>
-                            <h4>22</h4>
-                            <p>Ene</p>
-                            <p>2023</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="contenido_post">
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias labore deleniti, dolores itaque voluptates corporis et dolorum, perferendis similique aliquid facilis! Id quia repellat tempora rem quo, est illo. Culpa?
-                        Aliquam saepe, exercitationem molestiae obcaecati sapiente officia, modi alias impedit doloribus fugiat ullam itaque voluptatem molestias! Totam quidem odit eos suscipit consectetur quas, minima nulla vitae ratione, rerum culpa perferendis!
-                        Ad, vitae! Laborum quis ab, incidunt voluptatem harum qui maxime error obcaecati enim debitis recusandae iste itaque aut nemo optio deserunt cum a dolores aperiam consequatur ratione voluptates? Explicabo, corrupti?
-                        Architecto officia ipsum quia impedit ducimus! Molestiae laboriosam est eum cumque necessitatibus, debitis a qui sint nihil dolores totam dicta eaque ut, enim accusamus. Laudantium saepe quaerat assumenda expedita numquam.
-                        Consectetur, consequatur voluptatem! Alias odio itaque nam dolore fugiat at soluta temporibus, facilis ut dolor inventore, sed laborum ab necessitatibus reprehenderit autem quasi iste aliquam quisquam. Magni ipsa placeat ex!
-                        Maiores expedita mollitia ea. Inventore esse vero est delectus illum, vel quidem harum obcaecati aspernatur magnam! Deserunt facere quasi ex eveniet? Sit soluta modi vitae exercitationem. Vitae est illum dolores.
-                        Ullam, tempore sunt mollitia explicabo nesciunt temporibus dignissimos. Beatae numquam vero facere quas labore hic placeat libero sit. Doloremque rerum alias aliquam omnis exercitationem cum maxime libero id dignissimos! Laboriosam.
-                        Molestias rerum harum sit quaerat voluptates quis, iure enim reprehenderit fuga iusto eveniet! Repudiandae cumque aperiam quod ex quos omnis eos animi corrupti ipsam, inventore tempore ratione, vel consequatur aliquam.
-                        Voluptates sequi tempora nihil at corrupti minus asperiores deserunt deleniti aliquid soluta laboriosam expedita cum voluptate, repellat quis eveniet sed ducimus distinctio architecto. Possimus dignissimos cum id perspiciatis quisquam architecto.
-                        Libero, hic necessitatibus fugit laboriosam, corrupti totam repudiandae incidunt ea velit ducimus asperiores, unde vero molestias nisi eaque natus magnam labore deleniti praesentium ad sunt aspernatur reiciendis omnis ipsam. Voluptatibus?
-                        Deleniti similique id magnam, dolorem nemo itaque rem assumenda quis consequuntur veritatis vel obcaecati amet voluptate numquam fugiat officia facilis! Autem deserunt optio dignissimos amet sit consectetur iure, cum aliquam?
-                        Enim eveniet laudantium nulla, reprehenderit eius porro doloremque mollitia soluta, facilis voluptatem ratione amet quisquam odit sed ad? Suscipit nam eos laudantium saepe amet ullam, ratione rem atque voluptatibus possimus?
-                        Animi earum esse a numquam asperiores in neque quam quaerat deleniti beatae! Pariatur voluptatibus, reiciendis error culpa enim quas laboriosam recusandae modi quisquam aut eius eos praesentium, minima quia dignissimos.
-                        Adipisci unde voluptatum facere aspernatur corporis illo at consequatur repellat, sapiente, perferendis sit debitis accusamus similique dolores necessitatibus maiores dolore sequi quae totam officia veritatis autem tenetur placeat non. Numquam?
-                        Dolor voluptatum aperiam nesciunt reprehenderit rerum. Tenetur non temporibus inventore modi obcaecati enim minima mollitia eveniet pariatur quia. Quod, sapiente cum. Nemo accusantium placeat harum ipsam nihil quia beatae praesentium?
-                        Similique voluptates consectetur quasi omnis delectus a sint veniam cum? Nulla nostrum veniam modi cum, nihil amet nam nemo ea voluptates quas facilis aspernatur ut, reiciendis dolores eos sapiente recusandae.
-                        Repellendus quidem earum, qui necessitatibus, debitis corporis velit eligendi porro fugit eum consequuntur aspernatur eveniet. Veritatis aspernatur, voluptas totam ea, numquam tenetur quae libero quas ipsum deserunt ratione, laudantium quo.
-                        Nobis sunt ad earum optio possimus incidunt id est voluptatum aliquam a illum magni voluptatibus autem rerum eveniet, temporibus quisquam architecto expedita nulla? Odit fuga, quisquam at nam non consequatur.
-                        Quas impedit quibusdam tempora, quae sit ut blanditiis excepturi, velit laudantium numquam hic nisi accusamus magnam similique ad assumenda expedita iusto nam mollitia quod tenetur corrupti. Veniam quia saepe similique?
-                        Maxime optio explicabo necessitatibus incidunt maiores doloremque, quos molestias quisquam rerum? Consectetur eveniet impedit ipsam architecto fuga placeat ad nisi dolores, pariatur quidem illum earum incidunt. Maiores molestias corporis consequatur!
-                        Assumenda facilis obcaecati debitis blanditiis consequuntur sint esse. Ipsa aut saepe quia minima dolore, esse cumque dolorum labore. Unde nam suscipit saepe neque porro omnis velit perferendis nihil excepturi quos!
-                        Perspiciatis veniam possimus rem vel alias quaerat cum consequatur! Molestiae minus cumque dignissimos perferendis laborum dolorem debitis fugiat excepturi numquam adipisci et assumenda, ad ipsum vitae nihil deserunt harum. Eligendi!
-                        Sint inventore eos sapiente adipisci praesentium fuga in cum earum blanditiis officia nisi tenetur neque voluptate, ea explicabo quibusdam molestias dolores architecto eum dolorum facilis ipsum obcaecati. Sit, sequi neque!
-                        Quasi ex consectetur officiis quas vitae adipisci sunt, beatae voluptatibus veniam, libero voluptates? Cum dolore exercitationem placeat nihil dolores, magnam porro quod dicta ipsam esse aliquam deserunt tenetur labore ad.
-                        Suscipit id, blanditiis quos ipsam eum mollitia quia ullam laudantium. Nam velit ratione quibusdam aperiam temporibus tenetur commodi porro laudantium maxime asperiores recusandae nisi dolorum cumque, accusantium reprehenderit veniam unde.
-                        Cumque labore recusandae a quas consequatur, nemo expedita voluptas deserunt voluptatibus quia autem esse laboriosam. Ad cum nostrum voluptates, explicabo quod necessitatibus quidem optio non corporis odio praesentium? Amet, porro.
-                        Sequi, sint laboriosam! Doloremque dolor officia maxime ullam quaerat ipsum quibusdam culpa, voluptatum pariatur facere dignissimos quod suscipit optio nihil obcaecati laboriosam vel deserunt ea. Id ipsum tempora esse excepturi.
-                        Repudiandae, voluptatibus incidunt! Officiis qui nisi recusandae corporis repudiandae animi ipsa sed aliquam tempore harum nam corrupti dolorum praesentium porro inventore, unde incidunt debitis exercitationem voluptatem. Aut officiis minus rem!
-                        Consequuntur non sit maxime neque ea, voluptatem expedita, deserunt voluptate quisquam ipsa amet necessitatibus delectus quam officiis similique laudantium corporis cumque? Incidunt doloribus corrupti eligendi iure tenetur, quam voluptates quis.
-                        Eveniet aperiam sapiente libero rerum quae accusamus vero laudantium doloremque, voluptas ex ab quo debitis, corrupti porro explicabo suscipit impedit. Iusto quam voluptates suscipit repudiandae mollitia voluptate possimus sed esse?
-                        Vitae repudiandae placeat cum maxime dicta quis dolor, nobis cumque recusandae quasi natus voluptatibus veritatis nesciunt voluptates ipsam ex consequatur atque omnis fuga at, quidem cupiditate. Maiores, nisi ad! Ullam?
-                        Distinctio ut dignissimos minus, ex magnam repellendus pariatur, hic similique, tempora error voluptates. Cupiditate consequatur fuga, voluptatibus similique mollitia voluptatem, vel unde culpa accusantium nisi temporibus, saepe hic harum id.
-                        Ipsam totam dolores consequuntur tempore autem animi laborum! Dicta odio, maiores nisi, modi laboriosam nulla sapiente corporis veritatis maxime aperiam totam alias cupiditate ex dolores magnam reprehenderit, fugit quasi nesciunt?
-                        Deleniti voluptas harum nihil magnam quas ab nulla officia suscipit perspiciatis rem repudiandae ipsam, alias facere error enim. Perspiciatis sunt iste quae explicabo veniam accusamus vero adipisci id. Tempora, sequi.
-                        Maxime possimus dolorum aspernatur quas alias, impedit iure deserunt reiciendis quam tenetur recusandae sequi error animi ipsa accusantium magnam asperiores dolor illo perspiciatis laudantium nemo rem omnis quidem accusamus. Pariatur.
-                        Rerum fuga quae, quo mollitia tenetur, consequatur alias iure quibusdam, animi ad eum ipsam iusto expedita eveniet? Laboriosam ipsa quidem quaerat eum possimus impedit. Sint ab fuga dignissimos libero temporibus!
-                        Recusandae, possimus magni sequi, ipsum accusamus vero est minus eligendi voluptatum autem velit dolorem ratione. Architecto libero itaque commodi. Modi maiores dolorem inventore vel quibusdam necessitatibus ad, architecto accusamus ipsum?
-                        Nisi voluptate voluptatem, rem, tempore enim sequi aperiam obcaecati dignissimos, pariatur eaque ipsa tenetur recusandae aut exercitationem blanditiis! Officia hic dicta magni quisquam optio omnis necessitatibus? Deleniti, ipsa. Reiciendis, omnis!
-                        Harum rerum fugiat eum, qui suscipit laborum culpa odit esse, earum quos minima saepe consequuntur veritatis quis quas pariatur obcaecati sequi accusantium numquam nisi nulla unde dolorem natus! Tempora, explicabo.
-                        Nesciunt obcaecati expedita repudiandae soluta magnam modi harum! Obcaecati, labore maiores? Earum aut exercitationem, nobis eos libero quam eligendi nihil sed illo consequuntur temporibus ratione qui magni rerum omnis et.
-                        Facere, unde. Eius consequuntur vel modi esse praesentium ab officia ad maiores quibusdam corrupti, sunt earum laborum facilis quam! Facere, incidunt laborum sint minus velit repudiandae itaque. Minus, quos ex.
-                        Omnis ducimus ipsam obcaecati, recusandae quia vero maiores. Eveniet accusantium assumenda, esse accusamus, dignissimos, cumque architecto inventore quisquam ea animi cupiditate blanditiis tempore! Architecto impedit, numquam asperiores autem veniam quasi.
-                        Sequi doloremque incidunt ipsam facere hic porro nam maxime asperiores ipsa harum qui sint recusandae esse perferendis enim, laborum quisquam expedita eveniet iusto non. Omnis quibusdam voluptatem quia minima blanditiis!
-                        Totam, ea eos! Aliquid laborum deserunt enim rerum, neque omnis inventore ipsa veniam repellendus consequuntur ut, fugit fuga iusto perferendis molestiae officia. Quam, eligendi culpa eum laborum modi fuga sed.
-                        Animi esse fugiat ducimus provident vel vitae officiis dolorum, consequuntur laboriosam modi eligendi nam explicabo quia molestias nobis nulla aspernatur quae libero iure eum magnam quisquam! Quibusdam placeat incidunt earum?
-                        Hic dicta blanditiis aliquid consequatur voluptates illum, voluptatibus eligendi. Reiciendis iusto saepe consectetur eligendi velit laborum porro, molestiae odit ipsum soluta maiores ratione dolore veniam, placeat voluptas animi. Dicta, quibusdam?
-                        Debitis, aliquid incidunt. Itaque natus vero expedita dignissimos ex dolores provident mollitia eligendi saepe rem corporis labore libero culpa repudiandae, deleniti architecto molestias beatae aliquid eum sapiente alias deserunt! Fugiat.
-                        Culpa corporis voluptatibus distinctio. Beatae quasi cum amet tempore hic commodi explicabo omnis illo quidem molestiae, error modi minima expedita. Quia eligendi sunt repudiandae natus assumenda hic voluptas atque ut.
-                        Illum nemo esse laborum illo nulla iure eius, adipisci molestiae quibusdam sequi est excepturi facere quod optio et expedita accusantium atque. Voluptate impedit at molestias eos consequuntur vero, sequi vitae!
-                        Accusamus possimus ad ex rem, cupiditate aspernatur impedit incidunt quasi maxime sequi ab labore esse perspiciatis, reprehenderit consectetur pariatur, et nobis qui dolor similique sunt quidem delectus. Quasi, aliquid exercitationem..</p>
-                    </div>
-                    <div id="tags_container">
-                        <p>Etiquetas</p>
-                        <div>
-                            <a href="#">Tag 1</a>
-                            <a href="#">Tag 2</a>
-                            <a href="#">Tag 3</a>
-                            <a href="#">Tag 4</a>
-                        </div>
-                     
-                    </div>
-                    <div id="container_stats">
-                        <p>20 Nipahs</p>
-                        <p>20 Comments</p>
-                    </div>
-                </section>
-            </article>
 
-        </section>
-        <footer>
-            <div>
-                <p>&copy; Otaku Binary and contributors 2023</p>
-                <p>Beginner VTuber</p>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="https://www.youtube.com/@otakubinary" target="_blank">Youtube</a>
-                        <a href="https://www.twitch.tv/otakubinary" target="_blank">Twitch</a>
-                        <a href="https://www.twitter.com/otakubinary">Twitter</a>
-                        <a href="https://www.facebook.com/otakubinary" target="_blank">Facebook</a>
-                        <a href="https://www.instagram.com/otakubinary" target="_blank">Instagram</a>
-                        <a href="https://www.tiktok.com/@otakubinary" target="_blank">Tik Tok</a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-    </main>
-    <script src="js/index.js"></script>
 </body>
 
 </html>
