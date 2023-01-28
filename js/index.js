@@ -1,1 +1,1 @@
-console.log('works!');
+console.log('Hello World'); // <- JS Javascript code inside index.js
